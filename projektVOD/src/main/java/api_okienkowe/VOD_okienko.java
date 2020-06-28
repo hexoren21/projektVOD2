@@ -99,9 +99,9 @@ public class VOD_okienko {
         JP_menu_dolny_tabela.setLayout(new BoxLayout(JP_menu_dolny_tabela, BoxLayout.Y_AXIS));
         NoweFilmy noweFilmy = new NoweFilmy();
         produktArrayList = noweFilmy.getLista_filmow();
-        nowyButton.setVisible(true);//set false;
-        TextField_oknoLoginu_login.setEditable(true);
-        PasswordField_oknoLoginu_haslo.setEditable(true);
+        nowyButton.setVisible(false);//set false;
+        TextField_oknoLoginu_login.setEditable(false);
+        PasswordField_oknoLoginu_haslo.setEditable(false);
         createTable(produktArrayList);
 
         cancelButton.addActionListener(new ActionListener() {
