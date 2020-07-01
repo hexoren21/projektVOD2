@@ -1,11 +1,10 @@
 package dodanie_nowych_produktow;
 
-import produkty.Film;
-import produkty.ProdukGlowny;
-
+import produkty.*;
 import java.net.URI;
 import java.util.ArrayDeque;
 import java.util.Arrays;
+
 import java.util.List;
 import java.util.Queue;
 

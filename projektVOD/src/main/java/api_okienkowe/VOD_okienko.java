@@ -1,6 +1,7 @@
 package api_okienkowe;
 
 import account.User;
+import account.UserRepository;
 import dodanie_nowych_produktow.NoweFilmy;
 import dodanie_nowych_produktow.NoweLiveStreamy;
 import dodanie_nowych_produktow.NoweSeriale;
@@ -20,6 +21,8 @@ import java.net.URI;
 import java.util.ArrayDeque;
 import java.util.List;
 import java.util.Queue;
+
+import static javax.swing.JOptionPane.showMessageDialog;
 
 public class VOD_okienko {
     public JPanel panel1;
@@ -99,9 +102,9 @@ public class VOD_okienko {
         JP_menu_dolny_tabela.setLayout(new BoxLayout(JP_menu_dolny_tabela, BoxLayout.Y_AXIS));
         NoweFilmy noweFilmy = new NoweFilmy();
         produktArrayList = noweFilmy.getLista_filmow();
-        nowyButton.setVisible(false);//set false;
-        TextField_oknoLoginu_login.setEditable(false);
-        PasswordField_oknoLoginu_haslo.setEditable(false);
+        nowyButton.setVisible(true);//set false;
+        TextField_oknoLoginu_login.setEditable(true);
+        PasswordField_oknoLoginu_haslo.setEditable(true);
         createTable(produktArrayList);
 
         cancelButton.addActionListener(new ActionListener() {
@@ -116,6 +119,21 @@ public class VOD_okienko {
         newButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                //przycisk zapisu nowego uzytkownika
+                String login = textField3.getText();
+                String password = String.valueOf(passwordField1.getPassword());
+                String password2 = String.valueOf(passwordField2.getPassword());
+                if (!password.equals(password2)) {
+                    showMessageDialog(null, "Wrong password");
+                    return;
+                }
+                if (new UserRepository().setUserIntoData(login, password)) {
+                    showMessageDialog(null, "Save!");
+                }
+                else {
+                    showMessageDialog(null, "not Save!");
+                    return;
+                }
                 panel1.removeAll();
                 panel1.add(panel_loginu);
                 panel1.repaint();
@@ -135,19 +153,21 @@ public class VOD_okienko {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //Wstepnie ustawianie loginu i hasla jako gosc na sztywno
-                User user = new User();
-                user.setUser(TextField_oknoLoginu_login.getText(), String.valueOf(PasswordField_oknoLoginu_haslo.getPassword()));
-                if (user.getName().equals("gosc")){
-                    if (user.getPassword().equals("gosc")) {
-                        Label_m_login.setText("gosc");
-                        Label_m_login.setForeground(Color.red);
-                        panel1.removeAll();
-                        panel1.add(JPanel_menu);
-                        panel1.repaint();
-                        panel1.revalidate();
-                        JP_menu_dolny_admin.setVisible(false);
-                    }
+                String login = TextField_oknoLoginu_login.getText();
+                String password = String.valueOf(PasswordField_oknoLoginu_haslo.getPassword());
+                if (!new UserRepository().isUser(login, password))  {
+                    showMessageDialog(null, "Wrong login or password");
+                    return;
                 }
+                Label_m_login.setText(login);
+                Label_m_login.setForeground(Color.red);
+                panel1.removeAll();
+                panel1.add(JPanel_menu);
+                panel1.repaint();
+                panel1.revalidate();
+                JP_menu_dolny_admin.setVisible(false);
+
+
             }
         });
         tabela_produktow.addMouseListener(dodaniePrzyciskuTabeli(produktArrayList));

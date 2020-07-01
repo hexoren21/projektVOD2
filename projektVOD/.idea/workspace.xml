@@ -2,19 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27aacd11-f7e3-46bb-8600-5618094dc266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_users_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_users.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/db.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api_okienkowe/VOD_okienko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api_okienkowe/VOD_okienko.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/zdjecia/gra_o_tron.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/zdjecia/gra_o_tron.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/zdjecia/live_stream1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/zdjecia/live_stream1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/zdjecia/live_stream2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/zdjecia/live_stream2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/zdjecia/przyjaciele.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/zdjecia/przyjaciele.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/zdjecia/rsz_potop2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/zdjecia/rsz_potop2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/zdjecia/rsz_transf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/zdjecia/rsz_transf.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dodanie_nowych_produktow/NoweFilmy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dodanie_nowych_produktow/NoweFilmy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api_okienkowe/VOD_okienko.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__Create_users_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V2__Add_users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dodanie_nowych_produktow/NoweFilmy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dodanie_nowych_produktow/NoweLiveStreamy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dodanie_nowych_produktow/NoweSeriale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/produkty/Film.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/produkty/LiveStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/produkty/Odcinek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/produkty/ProdukGlowny.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/produkty/Serial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/produkty/Sezon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/account/UserTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +93,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,18 +101,35 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp\Desktop\programowanie\projektVOD2\projektVOD\src\main" />
       <recent name="C:\Users\Hp\Desktop\programowanie\projektVOD2\projektVOD" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="account" />
+      <recent name="" />
+      <recent name="io.hexoren.produkty.account" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hexoren" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp\Desktop\programowanie\projektVOD2\projektVOD\src\main\java" />
       <recent name="C:\Users\Hp\Desktop\programowanie\projektVOD2\projektVOD\src\main\resources" />
       <recent name="C:\Users\Hp\Desktop\programowanie\projektVOD2\projektVOD\src\main\resources\db\migration" />
       <recent name="C:\Users\Hp\Desktop\programowanie\projektVOD\src\main" />
       <recent name="C:\Users\Hp\Desktop\programowanie\projektVOD\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="projektVOD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.hexoren.produkty.Main" />
       <module name="projektVOD" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,12 +139,12 @@
       <module name="projektVOD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="account.*" />
+          <option name="PATTERN" value="io.hexoren.produkty.account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="account" />
-      <option name="MAIN_CLASS_NAME" value="account.UserTest" />
+      <option name="PACKAGE_NAME" value="io.hexoren.produkty.account" />
+      <option name="MAIN_CLASS_NAME" value="io.hexoren.produkty.account.UserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.UserTest" />
       </list>
@@ -135,37 +191,53 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="140" y="144" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593343357084" />
-    <state x="528" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593366056863">
+    <state x="528" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593537288027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="528" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593366056863" />
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1593349720823">
+    <state x="528" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593537288027" />
+    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1593524330546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593349720823" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593380549340">
+    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593524330546" />
+    <state x="387" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593443764294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593380549340" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593380549338">
+    <state x="387" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1593443764294" />
+    <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593523609280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593380549338" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593380549337">
+    <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1593523609280" />
+    <state x="566" y="285" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1593455821261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593380549337" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593380549339">
+    <state x="566" y="285" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1593455821261" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593610286480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593380549339" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593610286480" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593610286480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593610286480" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593610286480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593610286480" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593610286480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593610286480" />
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1593449720451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1593449720451" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1593351217643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593351217643" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1593379755510">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1593456038434">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593379755510" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593456038434" />
   </component>
 </project>

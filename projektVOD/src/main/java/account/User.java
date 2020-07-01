@@ -1,16 +1,36 @@
 package account;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table( name = "users")
 public class User {
+
+    @Id
+    @GeneratedValue(generator = "inc")
+    @GenericGenerator(name = "inc", strategy = "increment")
+    private Integer id;
     private String name;
     private String password;
-    public User() {
-        this.name = "";
-        this.password = "";
+
+    public User() {}
+
+    public User(Integer id, String name, String password) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
     }
+
     public void setUser(String name, String password) {
         this.name = name;
         this.password = password;
     }
+
 
     public String getName() {
         return name;

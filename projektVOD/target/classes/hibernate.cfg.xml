@@ -31,8 +31,7 @@
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">validate</property>
 
-        <mapping class="io.github.mat3e.lang.Lang"/>
-        <mapping class="io.github.mat3e.todo.Todo"/>
+        <mapping class="account.User"/>
 
 
     </session-factory>
